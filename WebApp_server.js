@@ -8,7 +8,8 @@ app.use(methodOverride('_method'));
 app.use(express.urlencoded());
 
 //MVC connection
-app.use(require('./controllers/user'));
+app.use(require('./controllers/users'));
+app.use(require('./controllers/data'));
 
 app.use(express.static('public'));
 app.set('views', __dirname + '/views');
