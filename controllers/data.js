@@ -1,6 +1,8 @@
+
 var express = require('express');
 var router = express.Router();
 
+/*
 var Data = require('../models/data');
 var Devs = require('../models/devs');
 
@@ -27,5 +29,5 @@ router.get('/data/ems', function(req, res){
     });
   });
 });
-
+*/
 module.exports = router;

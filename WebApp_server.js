@@ -13,7 +13,6 @@ app.use(require('./controllers/user'));
 app.use(express.static('public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-app.use(favicon(__dirname + '/public/images/logo.png'));
 
 var port = process.env.PORT || 3000; //||8000
 app.listen(port, function(){
