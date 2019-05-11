@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 
 //var Data = require('../models/data');
-//var Users = require('../models/users');
+var Users = require('../models/users');
 
 router.get('/users/new', function(req, res){
   console.log("Request-get /users/new");
