@@ -1,7 +1,7 @@
 
 var express = require('express');
 var router = express.Router();
-/*
+
 //var Data = require('../models/data');
 //var Users = require('../models/users');
 
@@ -52,5 +52,5 @@ router.delete('/users/:id',function(req,res){
     res.render('index');
   });
 });
-*/
+
 module.exports = router;
